@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practice 2</title>
+</head>
+<body>
+    <form class="container">
+        <div class="item phone">
+            <label for="phone_number" class="number">شماره موبایل:</label>
+            <input type="number" name="phone_number"  minlength="11" id="phone_number" placeholder="شماره موبایل خود را وارد کنید">
+            <span class="error1">
+                <strong>شماره شما با موفقیت ثبت شد</strong>
+            </span>
+            <span class="error2">
+                <strong>شماره صحیح نیست</strong>
+            </span>
+            <span class="error3">
+                <strong>شماره خود را وارد کنید</strong>
+            </span>
+        </div>
+
+        <div class="item">
+            <button type="submit" id="button">
+                <i class="fa-mobile-screen-button"></i>
+                ارسال شماره
+            </button>
+        </div>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'B Nazanin';
+}
+
+.item {
+    display: flex;
+    padding: 10px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+#phone_number {
+    border: 2px solid #d73bd7;
+    border-radius: 5px;
+    padding: 6px;
+    background: linear-gradient(180deg, #fdaffd 30%, #eb49eb);
+    filter: drop-shadow(0px 4px 4px rgb(171, 7, 171, 1));
+}
+
+#button {
+    border: 2px solid #d73bd7;
+    border-radius: 15px;
+    padding: 6px;
+    background: linear-gradient(180deg, #fdaffd 30%, #eb49eb);
+    cursor: pointer;
+    color: #1d021d;
+    filter: drop-shadow(0px 4px 4px rgb(171, 7, 171, 1));
+}
+
+.number {
+    font-size: 20px;
+    color: #1d021d;
+    filter: drop-shadow(0px 4px 4px rgb(171, 7, 171, 1));
+}
+
+#phone_number:hover {
+    background: linear-gradient(180deg, #eb49eb 30%, #fdaffd);
+}
+
+#button:hover {
+    color: white;
+    background: linear-gradient(180deg, #eb49eb 30%, #fdaffd);
+    font-weight: bold;
+}
+
+.error1 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    display: none;
+    margin-top: 0.5rem;
+    margin-right: .2rem;
+    color: rgb(25, 139, 25);
+}
+
+.error2 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    display: none;
+    margin-top: 0.5rem;
+    margin-right: .2rem;
+    color: red; 
+}
+
+.error3 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    display: none;
+    margin-top: 0.5rem;
+    margin-right: .2rem;
+    color: red; 
+}
