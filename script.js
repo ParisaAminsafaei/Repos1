@@ -3,7 +3,7 @@
 var phone_number = document.querySelector('#phone_number');
 
 phone_number.addEventListener('input' , function() {
-    if(phone_number.value.length < 11) {
+    if(phone_number.value.length < 11 || phone_number.value.length > 11) {
         phone_number.style.borderColor = 'red'
         phone_number.style.color = 'red'
     } else if(phone_number.value.length == '11') {
